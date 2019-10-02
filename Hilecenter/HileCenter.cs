@@ -39,7 +39,7 @@ namespace Hilecenter
             try
             {
 
-                result = Program.GetWebResponse("https://hilecenter.com/durum.php");
+                result = Program.GetWebResponse("http://hilecim.net/versiyon/durum.php");
                 if (result != null)
                 {
                     string[] items = result.Split('|');
@@ -73,7 +73,7 @@ namespace Hilecenter
                 DialogResult result = MessageBox.Show("Maalesef uygulamamızı kullanmanız için verilen süre doldu. Tekrar hizmet almak için tekliflerimiz görmek ister misiniz?", "Yetkisiz Erişim", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.Yes)
-                    Process.Start("https://hilecenter.com/faceitte-calisan-csgo-hilesi-satin-al");
+                    Process.Start("http://hilecim.net/center/index.php#satinal");
                 return;
             }
             if (dllName == null)

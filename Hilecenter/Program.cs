@@ -12,7 +12,7 @@ namespace Hilecenter
         public static DateTime buyingDate = new DateTime(2019, 8, 28, 17, 35, 0);//Satin aldigi tarih
         public static string gameProcessName = "csgo";
         public static bool isUpdated = false;
-        public static int versionNumber = 5;
+        public static int versionNumber = 4;
         
         /// <summary>
         ///// Uygulamanın ana girdi noktası.

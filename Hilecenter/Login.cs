@@ -95,7 +95,7 @@ namespace Hilecenter
                 DialogResult result = MessageBox.Show("Maalesef uygulamamızı kullanmanız için verilen süre doldu. Tekrar hizmet almak için tekliflerimiz görmek ister misiniz?", "Yetkisiz Erişim", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.Yes)
-                    System.Diagnostics.Process.Start("https://hilecenter.com/faceitte-calisan-csgo-hilesi-satin-al");
+                    System.Diagnostics.Process.Start("http://hilecim.net/center/index.php#satinal");
             }
             if (!Program.isTrue) Application.ExitThread();
         }
